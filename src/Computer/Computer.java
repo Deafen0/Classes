@@ -22,6 +22,16 @@ public class Computer {
         status = false;
         Virus = false;
     }
+
+    public  Computer(CPU c, RAM r , DVD d, HardDrive h )
+    {
+        ram = r;
+        cpu = c;
+        dvd = d;
+        hardDrive = h;
+        status = false;
+        Virus = false;
+    }
     public void ConfiguratePC() {
         cpu.setCores();
         cpu.setThreads();

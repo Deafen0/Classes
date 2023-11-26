@@ -5,7 +5,7 @@ public class DVD {
     private final Scanner input = new Scanner(System.in);
     private double Perf;
 
-    public DVD (double Perf , String name){
+    public DVD (double Perf ){
         this.Perf = Perf;
     }
     public DVD (){

@@ -3,6 +3,13 @@ package Computer.Components;
 public class HardDrive {
     private double speed, storage;
 
+    public HardDrive(double  speed , double storage)
+    {
+       this.speed = speed;
+       this.storage = storage;
+    }
+    public HardDrive(){}
+
     @Override
     public boolean equals(Object obj) {
         if ( this == obj) return true;
